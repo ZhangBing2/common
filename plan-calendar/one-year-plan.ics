@@ -23,14 +23,17 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:c9734d52-c3cf-5920-85db-c7bd405fd16c
-DTSTAMP:20261016T062544Z
+DTSTAMP:20261016T154338Z
 DTSTART;TZID=America/Los_Angeles:20261019T085700
 DURATION:PT15M
 SUMMARY:本周计划 · P1
-DESCRIPTION:P1 · 周一 2026-10-19 · 个人时间约 0h(不含每天英
- 语)\n☐ C 英语:开始每天英语 20–30 分钟(BoldVoice + Rachel 
- 五类音)(0h)\n备注:计划定稿中:完整周表稍后自动替换本
- 事件\n轻周:按一半量\n计划全文:本地 PDF
+DESCRIPTION:P1 · 周一 2026-10-19 · 个人时间约 0.5h(不含每天英
+ 语)\n☐ F 职业:职业事项(细节见本地计划)(0h)\n☐ F 职业:
+ 职业事项(细节见本地计划)(0h)\n☐ A5 LLM serving 词汇:LLM ser
+ ving:旧笔记里两句不准的类比先删(10/18 前\,只删不加)(0.25
+ h)\n☐ B1 限时 coding:顺序 / 丢包两个用例拆开(15 分钟)(0.25
+ h)\n☐ C 英语:英语:只做现有每日两段 + 开场节点\,不启动
+ 新练法(0h)\n备注:(细节见本地计划)\n计划全文:本地 PDF
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:本周计划 · P1
@@ -38,17 +41,1452 @@ TRIGGER:-PT0M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:7fb2ef79-d2c9-5467-9178-a6f01441fb86
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261026T085700
+DURATION:PT15M
+SUMMARY:本周计划 · P2
+DESCRIPTION:P2 · 周一 2026-10-26 · 个人时间约 0.75h(不含每天
+ 英语)\n☐ F 职业:职业事项(细节见本地计划)(0h)\n☐ B1 限
+ 时 coding:建限时记录表、迁错误账本\;新开会话要 11 月 3 
+ 道盲题 + 2 道找错题(分开封存)(0.75h)\n☐ C 英语:若已无安
+ 排可先开始每天 Rachel 10 分钟\;基线与 BoldVoice 11/2 起(0h)\n
+ 备注:月底一个检查点\n轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · P2
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:33dccf1b-eea1-57b3-9cc5-1d2b215bc99c
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261102T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W1
+DESCRIPTION:W1 · 周一 2026-11-02 · 个人时间约 5.25h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ F 
+ 职业:职业事项(细节见本地计划)(3h)\n☐ C 英语:英语起跑:
+ Ava 探针 → 10 分钟基线计数 · BoldVoice 试用 + 母语评估 ·
+  关课堂录音 · 两节试课定教练 · 月测节点卡(1h)\n☐ B1 
+ 限时 coding:H 盲题(基线):主机侧描述符环 + 门铃 + 完成队
+ 列(1.25h)\n备注:英语每日提醒 11/2 起\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W1
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb6fbf85-6afa-5add-8081-7f23787671ce
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261109T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W2
+DESCRIPTION:W2 · 周一 2026-11-09 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A1 C
+ UDA:个人设备决定(建议买个人机\,价格待核)· 开个人 AWS 
+ 账号、us-west-2 申请 G 实例 4 vCPU、账单提醒 $50 / $100 / $150
+ (0.75h)\n☐ B1 限时 coding:E 盲题:INT8 仿射量化 + requantize(在
+ 线编辑器)(1.25h)\n☐ A5 LLM serving 词汇:LLM serving:Orca 卡\;开
+ 读 PagedAttention(2.5h)\n☐ B2 系统设计:设计练习启动:约伙伴
+  2–3 位、一页英文简报、量表定稿\;约 11/21(1.25h)\n计划
+ 全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W2
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9a4b4af0-388a-55a0-8b54-5e7de0d2534e
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261116T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W3
+DESCRIPTION:W3 · 周一 2026-11-16 · 个人时间约 6h(不含每天英
+ 语)\n☐ B1 限时 coding:C:LeetCode 1226 哲学家就餐(5 线程驱动 
+ + TSan)(1.25h)\n☐ A5 LLM serving 词汇:PagedAttention 卡 + 两个预
+ 测(按要用的机器规格)(1.5h)\n☐ B2 系统设计:设计卡 · 车
+ 队遥测(热 / 冷两条路、协议对比、分区)+ 11/21 练习 #1(基
+ 线)+ 复盘(3h)\n☐ A2 量化:量化:读 Wu et al. §5.1、§6(0.25h)\n
+ 备注:周六 11/21 设计练习\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W3
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ad747b57-8509-5a3a-a72e-2c13485db2ce
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261123T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W4
+DESCRIPTION:W4 · 周一 2026-11-23 · 个人时间约 2.25h(不含每天
+ 英语)\n☐ B1 限时 coding:25 分钟短练:空文件重写 spsc_ring(0.
+ 5h)\n☐ A5 LLM serving 词汇:Sarathi-Serve 卡(1h)\n备注:感恩节周(
+ 轻)\;周日月检\n轻周:按一半量\n本周日 = 月度检查点\n计
+ 划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W4
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b6aaea7-a4e4-52f3-8127-2521f68b95cf
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261130T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W5
+DESCRIPTION:W5 · 周一 2026-11-30 · 个人时间约 6h(不含每天英
+ 语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ B1 限
+ 时 coding:H 盲题:传感器采样设备驱动(寄存器 → DRDY 中断 
+ → 双缓冲 → 溢出计数)(1.25h)\n☐ E 公开收据:写作:新仓
+ 库提交身份(个人邮箱 / noreply)· 文章 1 提纲 + 不写清单 +
+  溯源表(2.25h)\n☐ A5 LLM serving 词汇:实验环境(个人机或个
+ 人云 VM)+ 自写流式压测脚本(2.5h)\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W5
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6476cc84-56be-51c8-8e85-c7c7b6d0a473
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261207T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W6
+DESCRIPTION:W6 · 周一 2026-12-07 · 个人时间约 6h(不含每天英
+ 语)\n☐ B1 限时 coding:H 重写:DMA 请求调度器空文件到可运
+ 行(只练)+ 找错 15 分钟(1.25h)\n☐ A1 CUDA:ncu 链路 go/no-go:g6.x
+ large + DLAMI、最小 copy kernel、报告回个人机 GUI\;顺读 Best P
+ ractices 三节(2.5h)\n☐ E 公开收据:文章 1 起草(上半)(1.5h)\n
+ ☐ A5 LLM serving 词汇:脚本收尾 + 并发 1 基线(0.75h)\n备注:12
+ /13 CUDA 链路 go/no-go\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W6
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0a450511-d026-5aaa-a035-05cc5f5a313e
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261214T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W7
+DESCRIPTION:W7 · 周一 2026-12-14 · 个人时间约 6h(不含每天英
+ 语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ B1 限
+ 时 coding:E 盲题:CRC-16 / CRC-32 查表 + 流式 update(1.25h)\n☐ E 
+ 公开收据:文章 1 下半 + 1 张图 + 朗读改稿 + 溯源表\;≤1\,
+ 500 词\;12/18 交审(3.5h)\n☐ A5 LLM serving 词汇:并发扫表 1–24
+ \,每点两遍\;在用 vs 预留(1.25h)\n备注:12/18 文章 1 交审\n计
+ 划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W7
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a740f79-0965-52fe-8183-64c078bcd944
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261221T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W8
+DESCRIPTION:W8 · 周一 2026-12-21 · 个人时间约 3h(不含每天英
+ 语)\n☐ B1 限时 coding:短练:重写 ref_aligned_malloc(0.5h)\n☐ A1 
+ CUDA:测量骨架 + copy / 只读两条实测天花板(1.25h)\n备注:圣
+ 诞 / 寒假(轻)\;周日月检 + 季度复盘\n轻周:按一半量\n本
+ 周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W8
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a3ff7f2f-9c2a-5efc-9511-34dd3388db94
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261228T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W9
+DESCRIPTION:W9 · 周一 2026-12-28 · 个人时间约 3h(不含每天英
+ 语)\n☐ A1 CUDA:归约 v0 + v1\,校验 + 计时(1.5h)\n☐ A5 LLM servin
+ g 词汇:DistServe、SGLang 博客版卡(1h)\n☐ B1 限时 coding:短练:
+ 重写 ref_memmove(0.5h)\n备注:元旦 / 寒假(轻)\n轻周:按一半量
+ \n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W9
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd49067-e5d7-575b-bea8-721d4f635444
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270104T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W10
+DESCRIPTION:W10 · 周一 2027-01-04 · 个人时间约 6h(不含每天英
+ 语)\n☐ A1 CUDA:归约 v2 + v3(shuffle)\;每版 ncu(3h)\n☐ A5 LLM serv
+ ing 词汇:FlashAttention、speculative decoding 卡 + Inside vLLM 四节(
+ 1.75h)\n☐ B1 限时 coding:C 盲题:可重用屏障 + 超时\;+ 找错 1
+ 5 分钟(1.25h)\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W10
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6e4f383f-c8f7-52a3-9de6-bac155452d53
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270111T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W11
+DESCRIPTION:W11 · 周一 2027-01-11 · 个人时间约 5.5h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A1 C
+ UDA:v4 float4\;原子 vs 两 pass\,100 次逐位一致(2h)\n☐ A5 LLM ser
+ ving 词汇:请求生命周期调用链(据 Inside vLLM)+ 一页笔记(2.2
+ 5h)\n☐ B1 限时 coding:R 盲题:确定性回放检查器(两次回放
+ 逐条比对、报第一处分歧\;在线编辑器)(1.25h)\n备注:长周
+ 末(1/16–17):周末 ≤1.5h\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W11
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:97ce1ade-b34c-5e49-90ad-0716c654c580
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270118T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W12
+DESCRIPTION:W12 · 周一 2027-01-18 · 个人时间约 3h(不含每天英
+ 语)\n☐ A1 CUDA:和 CUB 按确定性档对照(1h)\n☐ B1 限时 coding:
+ 短练:重写 ref_transpose(0.5h)\n☐ F 职业:职业事项(细节见本
+ 地计划)(1.5h)\n备注:MLK 周(轻)\n轻周:按一半量\n计划全文:
+ 本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W12
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fcfac5c5-b571-51dc-a739-35c43ea458c8
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270125T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W13
+DESCRIPTION:W13 · 周一 2027-01-25 · 个人时间约 6h(不含每天英
+ 语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A1 CUDA
+ :occupancy × 带宽反例 + roofline + 结果表(≥85% 只读天花板)(
+ 2h)\n☐ A5 LLM serving 词汇:口头版初稿 + 修正类比写回本地
+ 笔记 + 四条词汇桥进词表(0.5h)\n☐ B1 限时 coding:H 盲题:cre
+ dit 发送端(重传、乱序完成)\;首算 rolling-8(1.25h)\n☐ B2 系
+ 统设计:1/30 练习 #2(遥测改约束\;快问 3 个 serving 词 + 1 个
+ 假设题)+ 复盘(1.5h)\n备注:1/31 serving 词汇桥收口、kernel 2 
+ 去留\n本周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W13
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b9ca30-b5e4-5f9e-b825-d0af8cb50cf5
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270201T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W14
+DESCRIPTION:W14 · 周一 2027-02-01 · 个人时间约 1.5h(不含每天
+ 英语)\n☐ A6 RDMA 基础:RDMA 基础:GPUDirect RDMA 文档 → 5 条(1h
+ )\n☐ B1 限时 coding:短练:重写 ref_parallel_sum(0.5h)\n☐ C 英语
+ :英语维持期:每天 15 分钟(跟读 + BoldVoice)\;周日 2 分钟模
+ 拟答(0h)\n备注:春节周(轻)\;英语转维持期\n轻周:按一半量
+ \n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W14
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b2cbd01f-d26b-561d-b084-1554fe76a604
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270208T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W15
+DESCRIPTION:W15 · 周一 2027-02-08 · 个人时间约 5.25h(不含每天
+ 英语)\n☐ A1 CUDA:kernel 2(若 1/31 定做):softmax 基线 + 一 block 
+ 一行(cols 1024)\;否则归约收尾(2.5h)\n☐ A6 RDMA 基础:verbs 七
+ 词 + 网卡一句 + 建连顺序(1.5h)\n☐ B1 限时 coding:E:LeetCode 2
+ 502 → 64 位字位图分配器\;+ 找错 15 分钟(1.25h)\n备注:长周
+ 末(2/13–14):周末 ≤1.5h\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W15
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1c3869c7-c833-5777-930a-d796a91350c9
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270215T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W16
+DESCRIPTION:W16 · 周一 2027-02-15 · 个人时间约 2.5h(不含每天
+ 英语)\n☐ A1 CUDA:online softmax 单遍(先写预测)(1h)\n☐ A6 RDMA 
+ 基础:NCCL ring / tree、busbw\;互连名字(1h)\n☐ B1 限时 coding:
+ 短练:重写 isr_ring(两个用例自己写)(0.5h)\n备注:Presidents' Da
+ y 周(轻)\n轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W16
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:15a5e998-61db-5d2c-90a3-e8b2e0088f30
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270222T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W17
+DESCRIPTION:W17 · 周一 2027-02-22 · 个人时间约 6h(不含每天英
+ 语)\n☐ A1 CUDA:kernel 2 roofline + 结果表(或归约 write-up 草稿)
+ (2h)\n☐ A6 RDMA 基础:算数卡 + 对照表 + 三句初稿(1.5h)\n☐ B
+ 1 限时 coding:H 盲题:固件更新主机侧(分块写、ACK / 重试、
+ CRC、提交 / 回滚\;在线编辑器)(1.25h)\n☐ F 职业:职业事项(
+ 细节见本地计划)(0.5h)\n本周日 = 月度检查点\n计划全文:
+ 本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W17
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:27c27afa-4c2a-5690-85c6-aa01957f8dcd
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270301T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W18
+DESCRIPTION:W18 · 周一 2027-03-01 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ A1 CUDA:冻结数字 + 新实例一键复现(≤5%)+ README +
+  许可证(2.5h)\n☐ A6 RDMA 基础:闭卷自测 #1 + 算数计时(0.5h)\
+ n☐ B1 限时 coding:H 盲题:闪存驱动(先擦后写、忙位超时、
+ W1C)\;+ 找错(1.25h)\n☐ B2 系统设计:设计卡 · 端侧推理 runti
+ me + 3/6 练习 #3(1.5h)\n备注:周六 3/6 设计练习\n计划全文:本
+ 地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W18
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e616aacd-61ec-5e0f-8c0b-a198cd7f4738
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270308T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W19
+DESCRIPTION:W19 · 周一 2027-03-08 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ A1 CUDA:一页英文 write-up(≤400 词)+ 禁词 grep + 作
+ 者自查(2.5h)\n☐ A6 RDMA 基础:闭卷自测 #2\;三句定稿写回本
+ 地笔记(0.5h)\n☐ B1 限时 coding:R 盲题:变长记录环形日志(
+ 覆盖最旧、多读者游标)(1.25h)\n☐ B2 系统设计:练习 #3 复
+ 盘 + 设计卡 · 车队日志上传(1.5h)\n☐ F 职业:职业事项(细
+ 节见本地计划)(0h)\n备注:3/14 夏令时开始\n计划全文:本地 
+ PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W19
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e195e29d-ff5f-5301-8af6-dfbfb226b8c8
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270315T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W20
+DESCRIPTION:W20 · 周一 2027-03-15 · 个人时间约 5.5h(不含每天
+ 英语)\n☐ A1 CUDA:两分钟口头版 + 10 道追问要点 + 自测一
+ 轮(2.75h)\n☐ B1 限时 coding:E 重写:arena + 侵入式 pool(契约与
+ 全套测试本人写)(1.25h)\n☐ B2 系统设计:外部练习 #1(3/20\,
+ 陌生题)+ 复盘(1.5h)\n备注:周六 3/20 外部设计练习\n计划全
+ 文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W20
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f89d7bf3-4039-54d7-a0d8-f1c34800bda9
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270322T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W21
+DESCRIPTION:W21 · 周一 2027-03-22 · 个人时间约 5.5h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A1 C
+ UDA:3/28 验收\;按书面同意定公开或私有\;删实例和卷(2h)\n
+ ☐ B1 限时 coding:真人练习 = 本周题(H\,在线编辑器\,45 分
+ 钟)\;Q1 验收(1.25h)\n☐ E 公开收据:回审稿意见 + 第三方二
+ 进制处理方案(先问本人)(1h)\n备注:3/28 CUDA 验收\;周日月
+ 检 + 季度复盘\n本周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W21
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4107932-eb36-55d4-bb81-11c4331d6792
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270329T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W22
+DESCRIPTION:W22 · 周一 2027-03-29 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ A3 Rust:装 rustup / nightly / miri\,关 AI 补全\,私有仓
+ 库\;Book Ch 1–4 + Rustlings(3h)\n☐ B1 限时 coding:C 盲题:线程
+ 安全对象池(借出 / 归还、上限、超时、关闭)(1.25h)\n☐ E 
+ 公开收据:博客骨架 + 仓库 README / CI\;公开前终检(须书面
+ 同意)(1.5h)\n备注:Rust 季开始\;教练课改隔周\n计划全文:本
+ 地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W22
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cff8b3bd-0126-5187-b9e9-7b8c21443509
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270405T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W23
+DESCRIPTION:W23 · 周一 2027-04-05 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ A3 Rust:Book Ch 5–6、9 + Rustlings(2.5h)\n☐ B1 限时 co
+ ding:R 盲题:存活监控器(按输出序号判卡住、超时分级)\;+ 
+ 找错(1.25h)\n☐ F 职业:职业事项(细节见本地计划)(2h)\n计
+ 划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W23
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:48248837-50c3-5fff-8366-a5146942ac41
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270412T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W24
+DESCRIPTION:W24 · 周一 2027-04-12 · 个人时间约 6h(不含每天英
+ 语)\n☐ A3 Rust:Book Ch 10、15–16、20.1\;对照页起稿(3.25h)\n☐
+  B1 限时 coding:H 盲题:中断合并(每 N 个或每 T 微秒\;在线
+ 编辑器)(1.25h)\n☐ F 职业:职业事项(细节见本地计划)(1.5h)\
+ n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W24
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cfc8d1ad-9ae6-5131-832d-6817f5285ff1
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270419T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W25
+DESCRIPTION:W25 · 周一 2027-04-19 · 个人时间约 6h(不含每天英
+ 语)\n☐ A3 Rust:Atomics Ch 1–2(1.5h)\n☐ B1 限时 coding:E 重写:bi
+ tpack\;spsc_ring 契约与全套测试改成本人写(1.25h)\n☐ E 公开
+ 收据:文章 1 发表(博客 + 全文 + 普通提交\;48 小时回评论)
+ + 仓库公开(1.5h)\n☐ B2 系统设计:设计卡 · 确定性回放(1h)
+ \n备注:4/25 文章 1 发表、仓库首次公开(须书面同意)\n本
+ 周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W25
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:657081c4-042d-571b-94ac-5a647dc93f73
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270426T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W26
+DESCRIPTION:W26 · 周一 2027-04-26 · 个人时间约 5h(不含每天英
+ 语)\n☐ A3 Rust:Atomics Ch 3–4\,spin lock 过 Miri(2.25h)\n☐ B1 限
+ 时 coding:H:LeetCode 2402 Meeting Rooms III\;+ 找错(1.25h)\n☐ B2 系
+ 统设计:5/1 练习 #4(回放)+ 复盘(1.5h)\n☐ E 公开收据:条件
+ 项:文章 2 提纲(文章 1 ≤4/25 已发表且 4 月未超时才做\,
+ 约 1h)(0h)\n备注:周六 5/1 设计练习\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W26
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:37168e7d-d38c-5ed6-96a0-1ddf40ec831b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270503T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W27
+DESCRIPTION:W27 · 周一 2027-05-03 · 个人时间约 4.5h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A3 R
+ ust:Atomics Ch 5 one-shot channel(Miri)\;对照页 ≥12 行(2.5h)\n☐ B1
+  限时 coding:E:LeetCode 393 → 流式增量解码(1.25h)\n☐ B1 限时
+  coding:自出题:当月题的变体(+3 个新测试)(0.75h)\n☐ E 公开
+ 收据:条件项:文章 2 起草(一)\,顶替自出题(0h)\n计划全文:
+ 本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W27
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:88b78c89-2b0e-584c-8d64-c38e6a78d352
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270510T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W28
+DESCRIPTION:W28 · 周一 2027-05-10 · 个人时间约 4.5h(不含每天
+ 英语)\n☐ A3 Rust:spsc-ring 设计页(两个句柄、缓存行、SAFETY
+  论证)(2.5h)\n☐ B1 限时 coding:C 重写:DAG 任务调度器\;+ 找
+ 错(1.25h)\n☐ B1 限时 coding:自出题:当月题的变体(0.75h)\n☐ 
+ E 公开收据:条件项:文章 2 起草(二)(0h)\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W28
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b63b778-2a6a-52d3-be86-5060de4978b9
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270517T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W29
+DESCRIPTION:W29 · 周一 2027-05-17 · 个人时间约 5.25h(不含每天
+ 英语)\n☐ A3 Rust:骨架(cfg(loom) 切换层)+ try_push / try_pop + 单
+ 测(2.25h)\n☐ B1 限时 coding:R 盲题:jitter buffer(在线编辑器)(1
+ .25h)\n☐ B2 系统设计:设计卡 · 健康监控与降级(1h)\n☐ B1 
+ 限时 coding:自出题:当月题的变体(0.75h)\n☐ E 公开收据:条
+ 件项:文章 2 图 + 改稿 + 溯源(0h)\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W29
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:973d412c-3a40-57f9-8cf6-252851de46fc
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270524T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W30
+DESCRIPTION:W30 · 周一 2027-05-24 · 个人时间约 5h(不含每天英
+ 语)\n☐ A3 Rust:Drop + 单测 + Miri\;读一个开源 Rust runtime 模
+ 块\,写一页(3h)\n☐ B1 限时 coding:H 盲题:I²C / SPI 事务状态
+ 机(1.25h)\n☐ E 公开收据:条件项:5/28 文章 2 交审(0h)\n备注:
+ 长周末(5/29–30):周末只做月检\n本周日 = 月度检查点\n计
+ 划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W30
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:def14370-318c-5e38-a7c6-25d4f075aff2
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270531T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W31
+DESCRIPTION:W31 · 周一 2027-05-31 · 个人时间约 3h(不含每天英
+ 语)\n☐ A3 Rust:TSan + clippy(undocumented_unsafe_blocks)(1.5h)\n☐ B2 
+ 系统设计:6/5 练习 #5(健康监控)+ 复盘(1.5h)\n备注:阵亡将
+ 士纪念日周(轻)\;周六 6/5 设计练习\n轻周:按一半量\n计划
+ 全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W31
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8daab57b-9acc-5240-b61b-19ef7d15fe4b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270607T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W32
+DESCRIPTION:W32 · 周一 2027-06-07 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ A3 Rust:loom(时间盒 1.5h)+ 双线程 10^6 保序(2.5h)\n
+ ☐ B1 限时 coding:年中真人练习 = 本周题(H)\;+ 找错(1.25h)\n
+ ☐ B2 系统设计:设计卡 · IPC + 6/12 外部练习 #2(2h)\n备注:
+ 周六 6/12 外部设计练习\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W32
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a6ec01d-5a95-5a34-9534-162cbd7819b0
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270614T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W33
+DESCRIPTION:W33 · 周一 2027-06-14 · 个人时间约 3h(不含每天英
+ 语)\n☐ A3 Rust:C++ 基线空文件重写 + 同测法基准(1.5h)\n☐ B
+ 1 限时 coding:短练 ×2:重写 ref_bounded_queue、semaphore(11 份收
+ 齐)(1h)\n☐ B2 系统设计:外部练习 #2 复盘 + 半年小结(0.5h)\
+ n备注:Juneteenth 周 + 暑假(轻)\n轻周:按一半量\n计划全文:
+ 本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W33
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b4e56978-8688-5a74-8768-f84d02574786
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270621T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W34
+DESCRIPTION:W34 · 周一 2027-06-21 · 个人时间约 2.75h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A3 R
+ ust:README\;6/27 收口(1h)\n☐ B1 限时 coding:短练:算法 958(0.5h)\
+ n备注:暑假(轻)\;6/27 Rust 收口\;周日月检 + 季度复盘\n轻周
+ :按一半量\n本周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W34
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4c036b6f-193c-5649-bcbb-958722000eb0
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270628T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W35
+DESCRIPTION:W35 · 周一 2027-06-28 · 个人时间约 3h(不含每天英
+ 语)\n☐ A4 固件/中断:固件:下单开发板\;个人机起 arm64 Linu
+ x VM\;Buildroot 首次构建\;读 A/B 概念页(1.75h)\n☐ B1 限时 codi
+ ng:H 盲题:DMA scatter-gather 描述符构建 + 回收(1.25h)\n备注:暑
+ 假(轻)\;长周末(7/3–4)\n轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W35
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5dd279de-5912-52fd-b0eb-b0e19b6526f7
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270705T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W36
+DESCRIPTION:W36 · 周一 2027-07-05 · 个人时间约 3h(不含每天英
+ 语)\n☐ F 职业:职业事项(细节见本地计划)(2h)\n☐ B1 限时 
+ coding:短练:算法 1443(0.5h)\n☐ A4 固件/中断:U-Boot qemu_arm64_de
+ fconfig 构建(0.5h)\n备注:独立日周 + 暑假(轻)\n轻周:按一半
+ 量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W36
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1a8f10d9-8240-5fd2-84da-b2e712116b9b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270712T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W37
+DESCRIPTION:W37 · 周一 2027-07-12 · 个人时间约 2.75h(不含每天
+ 英语)\n☐ B1 限时 coding:R 盲题:遥测离线缓存 + 重连续传 +
+  去重\;+ 找错(1.25h)\n☐ F 职业:职业事项(细节见本地计划)
+ (1.5h)\n备注:暑假(轻)\n轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W37
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fef3b2eb-2649-55b4-b630-8d5f11df06af
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270719T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W38
+DESCRIPTION:W38 · 周一 2027-07-19 · 个人时间约 3h(不含每天英
+ 语)\n☐ A4 固件/中断:QEMU 起 U-Boot → ext4load 内核 → shell(
+ 单槽)(1.5h)\n☐ B1 限时 coding:短练:算法 116(0.5h)\n☐ E 公开
+ 收据:7/25 闸门:仓库收 Rust 小库打 v1.0\;文章 2(若在做)未
+ 批就删减再送或推迟(0.25h)\n备注:暑假(轻)\;7/25 闸门\n轻
+ 周:按一半量\n本周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W38
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b31c3b7f-9c0e-5839-8cf9-b0548dbdaa43
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270726T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W39
+DESCRIPTION:W39 · 周一 2027-07-26 · 个人时间约 3h(不含每天英
+ 语)\n☐ A4 固件/中断:盘分三区、ENV_IS_IN_EXT4\;U-Boot 与 fw_se
+ tenv 各切一次 A↔B(1.75h)\n☐ B1 限时 coding:C 盲题:公平信号
+ 量(FIFO 票号)+ 超时(1.25h)\n备注:暑假(轻)\;8/1 备份板决定\n
+ 轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W39
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:95782484-df54-5fda-857b-2834e7783fcb
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270802T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W40
+DESCRIPTION:W40 · 周一 2027-08-02 · 个人时间约 3h(不含每天英
+ 语)\n☐ A4 固件/中断:BOOTCOUNT_ENV + bootlimit + altbootcmd\;坏镜
+ 像\;四场景 × 3 次一条命令(2.5h)\n☐ B1 限时 coding:短练:算
+ 法 1423(0.5h)\n备注:暑假(轻)\n轻周:按一半量\n计划全文:本
+ 地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W40
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4f23e2fa-a27b-54c3-9e3a-21b5ca76425c
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270809T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W41
+DESCRIPTION:W41 · 周一 2027-08-09 · 个人时间约 3h(不含每天英
+ 语)\n☐ A4 固件/中断:收据 ① 收尾 + 讲稿 ①②(A/B 与回滚
+ 、上电到 userspace)节点卡(1.75h)\n☐ B1 限时 coding:R 盲题:位
+ 姿按时间戳插值\;+ 找错(1.25h)\n备注:暑假最后一周(轻)\;8/
+ 15 固件收据 ①\n轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W41
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:47ea1321-66bf-58ad-b96c-11c674498cf2
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270816T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W42
+DESCRIPTION:W42 · 周一 2027-08-16 · 个人时间约 6h(不含每天英
+ 语)\n☐ A4 固件/中断:Zephyr + 烧录\;定时器中断 → SPSC 环(
+ 从零写)→ 线程\;讲稿 ③ ISR 节点卡(3h)\n☐ B1 限时 coding:
+ 综合练习 coding 段(8/21\,45 分钟)(1h)\n☐ B2 系统设计:综合
+ 练习 #1(8/21):设计 60 分钟 + 讲述 30 分钟 + 复盘(2h)\n备注:
+ 开学\;周六 8/21 综合练习\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W42
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9d3b1c20-178b-5a17-857b-a107aa9c5398
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270823T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W43
+DESCRIPTION:W43 · 周一 2027-08-23 · 个人时间约 5.75h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ A4 
+ 固件/中断:两种条件各 ≥10\,000 样本的中断延迟 + 两处手
+ 写寄存器自查 + 讲稿 ④⑤ 节点卡(描述符环、cache 一致
+ 性)(3.25h)\n☐ B1 限时 coding:H 盲题:看门狗驱动(按进展喂狗
+ 、W1C、复位原因计数\;在线编辑器)(1.25h)\n☐ F 职业:职业
+ 事项(细节见本地计划)(0.5h)\n备注:8/29 固件核心收口\n本
+ 周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W43
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:61f757fa-bfbd-5c7c-bb98-123ad506496b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270830T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W44
+DESCRIPTION:W44 · 周一 2027-08-30 · 个人时间约 5.5h(不含每天
+ 英语)\n☐ F 职业:职业事项(细节见本地计划)(4.5h)\n☐ B1 
+ 限时 coding:C 限时题:带锁的工作窃取双端队列(1h)\n☐ C 英
+ 语:英语 9 月:每天一个 2–3 分钟模拟答(轮换固件五段讲
+ 稿与主故事)\;月测前不升系统大版本(0h)\n备注:长周末(9/4
+ –5):周末 ≤1.5h\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W44
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a658046a-a96a-5447-b583-ed1ff84559aa
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270906T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W45
+DESCRIPTION:W45 · 周一 2027-09-06 · 个人时间约 3h(不含每天英
+ 语)\n☐ F 职业:职业事项(细节见本地计划)(3h)\n备注:劳动
+ 节周(轻)\n轻周:按一半量\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W45
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6b2b2311-7a0f-5ec8-8f48-a25c2640659f
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270913T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W46
+DESCRIPTION:W46 · 周一 2027-09-13 · 个人时间约 5.25h(不含每天
+ 英语)\n☐ B1 限时 coding:两晚限时题 + 周六综合练习 coding 
+ 段(2.5h)\n☐ B2 系统设计:综合练习 #2(9/18\,外部评审):远程
+ 诊断设计 + 讲述 + 复盘(1.75h)\n☐ F 职业:职业事项(细节见
+ 本地计划)(1h)\n备注:练习周 1/3\;周六 9/18 综合练习\n计划
+ 全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W46
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8b4baaad-b04d-5f53-b37c-76a3040e2969
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270920T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W47
+DESCRIPTION:W47 · 周一 2027-09-20 · 个人时间约 6h(不含每天英
+ 语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ B1 限
+ 时 coding:两晚限时题(2h)\n☐ B2 系统设计:设计卡 · A/B OTA 
+ 与启动(用固件收据 ①)(1h)\n☐ F 职业:职业事项(细节见本
+ 地计划)(1.75h)\n备注:练习周 2/3\;周日月检 + 季度复盘\n本
+ 周日 = 月度检查点\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W47
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b1f04a49-ee7a-5100-b4f4-221c9aa4ca23
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270927T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W48
+DESCRIPTION:W48 · 周一 2027-09-27 · 个人时间约 6h(不含每天英
+ 语)\n☐ B1 限时 coding:三晚限时题(含没达标的重做\;目标 
+ ≤35 分钟)(3h)\n☐ B2 系统设计:同行练习:重跑端侧推理 run
+ time 题(1.5h)\n☐ F 职业:职业事项(细节见本地计划)(1.5h)\n
+ 备注:练习周 3/3\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W48
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4a391339-ffad-558b-b7dd-deb5aa03af5a
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271004T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W49
+DESCRIPTION:W49 · 周一 2027-10-04 · 个人时间约 5.5h(不含每天
+ 英语)\n☐ F 职业:职业事项(细节见本地计划)(4h)\n☐ A1 CUDA
+ :CUDA 复习:write-up + 10 道追问(0.5h)\n☐ A3 Rust:Rust 复习:一条
+ 命令重跑测试(0.5h)\n☐ A5 LLM serving 词汇:LLM serving 复习:一
+ 页笔记(0.5h)\n备注:按本地计划\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W49
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06c32657-f339-54b3-a617-0f5ce1172578
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271011T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W50
+DESCRIPTION:W50 · 周一 2027-10-11 · 个人时间约 5.5h(不含每天
+ 英语)\n☐ F 职业:职业事项(细节见本地计划)(5.25h)\n☐ A6 R
+ DMA 基础:RDMA 速查 + 闭卷 12 题(0.25h)\n计划全文:本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W50
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ebdb87ff-f09b-5f62-85e7-07df4e607ab0
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271018T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W51
+DESCRIPTION:W51 · 周一 2027-10-18 · 个人时间约 5h(不含每天英
+ 语)\n☐ F 职业:职业事项(细节见本地计划)(5h)\n计划全文:
+ 本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W51
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8d613d61-a206-5fc4-a3d6-12803eca0e70
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271025T085700
+DURATION:PT15M
+SUMMARY:本周计划 · W52
+DESCRIPTION:W52 · 周一 2027-10-25 · 个人时间约 4.5h(不含每天
+ 英语)\n☐ D 现职:工作内任务(细节见本地计划)(0h)\n☐ F 
+ 职业:职业事项(细节见本地计划)(3.75h)\n备注:周日月检\;
+ 年度复盘挪到 11/1(周一)\n本周日 = 月度检查点\n计划全文
+ :本地 PDF
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:本周计划 · W52
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fda9c220-2177-56d4-86b2-e47013d6dd89
-DTSTAMP:20261016T062544Z
+DTSTAMP:20261016T154338Z
 DTSTART;TZID=America/Los_Angeles:20261102T210700
 DURATION:PT25M
 SUMMARY:英语 20–30 分钟
-DESCRIPTION:BoldVoice + Rachel 五类音(公共/发音音频/Rachel/)\;每
- 周一次教练课\;慢 10–15%\,熟词刻意慢半拍。
+DESCRIPTION:按本周计划做\;慢 10–15%\,熟词刻意慢半拍。
 RRULE:FREQ=DAILY;UNTIL=20271101T065959Z
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:英语 20–30 分钟
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:372c55d8-465c-5f77-beb1-f5be7f92df99
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261129T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2026-11
+DESCRIPTION:2026-11 月度检查点\n☐ 填月度记录表(B1、B2、词
+ 表 5 抽、C 月测只抄数)\;每轨 ≤3 分钟\n☐ B1 定基线:新
+ 题到可运行分钟数、契约命中、bug 来源\;下月盲题 / 找
+ 错题由 Claude 代出\,本人确认\n☐ C 第一次月测(先放 Ava 
+ 探针)对比 11/2 基线\;教练与 BoldVoice 去留已定\n☐ B2 练习
+  #1 基线:量表分、出整图分钟数、快问答对数\n☐ A5 三张
+ 卡 + 两个预测\;个人设备与 G 配额到位了吗\n☐ D / F:按本
+ 地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2026-11
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4869f121-d498-5146-af23-f70052a1c6a9
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261227T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2026-12
+DESCRIPTION:2026-12 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 21h\n☐ A1 go/no-go 结论\;两条实测天花板\n☐ A5 扫表 6 
+ 点 × 4 指标\,每点两遍\;预测偏差 %\n☐ 写作:文章 1 已交
+ 审(12/18)\n☐ 季度复盘 30 分钟(含 §2 偏离请本人确认、行
+ 为题对一遍)\n☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2026-12
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fc3f9e18-c9f1-59dc-ba4f-f8471cdeab52
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270131T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-01
+DESCRIPTION:2027-01 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 23.5h\n☐ A5 收口:7 张卡、一页笔记、口头版初稿、写
+ 回两处\;累计 ≤20h\n☐ A1 归约 ≥5 版、≥85% 只读天花板?
+ 定 kernel 2 去留\n☐ B1 首次 rolling-8(目标 ≥6/8)\n☐ C 强化
+ 期收尾:误识别 ≤ 基线 1/3、意思级 0、教练 ≥10 节\n☐ D
+  / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-01
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0efe0492-4858-5e37-b8ff-51ec4c1027a6
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270228T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-02
+DESCRIPTION:2027-02 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 15.25h\n☐ A6:五条、七词、建连顺序、算数卡、对照表
+ 、三句初稿\n☐ A1 kernel 2 结果表或归约收尾\n☐ B1 rolling-
+ 8 ≥7/8、中位数 ≤32 分钟\;本月 H 题到可运行?\n☐ C 开始
+ 记流利度(重来、>3 秒停顿)\n☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-02
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c4ba62e0-cfd4-5707-a372-50b751dfb3c9
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270328T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-03
+DESCRIPTION:2027-03 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 22.5h\n☐ A1 验收 done_when 全勾\;公开与否按书面答复\;
+ 实例和卷已删\n☐ A6 两次自测 ≥11/12、算数全对、写回
+ 本地笔记\n☐ B1 Q1 验收:8/8、≤30 分钟、契约 ≥80%、隐藏
+  ≥90%、H 最近 4 道 4/4\n☐ B2 1–3 月均值 ≥7\;外部练习结
+ 论\n☐ C 月测 ≤2\;季度复盘 30 分钟\n☐ D / F:按本地计划
+ 核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-03
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b4c8b4e3-8e8b-5949-90af-3a8427e8c21b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270425T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-04
+DESCRIPTION:2027-04 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 23.5h\n☐ C 月测目标 0\;列可撤回的替身词交本人\n☐ 
+ 写作:文章 1 已发表、仓库首次公开(或记书面状态)\;定文
+ 章 2 做不做\n☐ A3 Book 核心章 + 对照页前半\n☐ B1 找错找
+ 到率 ≥80%(本月起)\;规格已交 Rust 练习\n☐ D / F:按本地计
+ 划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-04
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb244244-bb9e-587e-b2bb-7bde2b8e686a
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270530T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-05
+DESCRIPTION:2027-05 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 24.25h\n☐ C 复测 = 0\n☐ A3 两个 Miri 例子、对照页 ≥12 
+ 行、骨架 + 单测、读码一页\n☐ B1 rolling-8 保持\;自出题 3
+  道\;B2 4–5 月均值 ≥8\n☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-05
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ecd88576-3923-5ab5-8856-092e78c75daf
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270627T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-06
+DESCRIPTION:2027-06 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 14.5h\n☐ A3 收口:测试全绿、基准表、README\n☐ B1 11 份
+ 重写收齐(本人从空文件写、sanitizer 全绿)\n☐ A6 复测 #3(1
+ 5 分钟\,≥11/12)\n☐ C 月测 ≤1\;外部练习 #2 结论\;季度复
+ 盘 30 分钟\n☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-06
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:34af037c-cfde-5149-bcd6-46daacafe8bb
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270725T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-07
+DESCRIPTION:2027-07 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 11.75h\n☐ A4 Buildroot + U-Boot 单槽跑通、概念对比表\n☐ 
+ 写作:仓库 v1.0\;7/25 闸门结论\n☐ B1 月度数\;C 月测 ≤1\n
+ ☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-07
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:39780e92-0699-5b40-b539-8b024291e678
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270829T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-08
+DESCRIPTION:2027-08 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 20.75h\n☐ A4 收据 ① 四场景 × 3 次\;收据 ② 两组延迟
+ 数据、寄存器自查\;讲稿五段节点卡\n☐ B2 综合练习 #1 
+ 复盘\;B1 rolling-8\n☐ C 月测 ≤1\n☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-08
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc67543-8a09-55d7-83e6-d0697368f7ae
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270926T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-09
+DESCRIPTION:2027-09 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 19.75h\n☐ 练习周记录:限时题到可运行、设计\n☐ B2 词
+ 表随机抽 20\,≥18 个过\n☐ C 9 月检查:关键词 ≤1、开场 9
+ 5–110 秒、重来 0、>3 秒停顿 ≤2\;固件五段讲稿录音\n☐ 
+ 9/26 闸门:不达标则推迟两周或只开 3 条\,本人定\;季度复
+ 盘 30 分钟\n☐ D / F:按本地计划核对
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-09
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:04863ec4-6b99-5768-b914-89b88a6b394a
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271031T200700
+DURATION:PT45M
+SUMMARY:月度检查点 · 2027-10
+DESCRIPTION:2027-10 月度检查点\n☐ 填月度记录表\;实际 vs 计
+ 划 26.5h\n☐ C 年终月测 + 一页对比(11/2 基线 vs 10/31)\n☐ Bo
+ ldVoice 年费约 11/9 自动续:今天定续不续\n☐ 写作年度检
+ 查:实际小时、审批周转、反响(只记录)\n☐ 年度复盘挪
+ 到 11/1(周一)30 分钟\n☐ D / F:按本地计划核算
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:月度检查点 · 2027-10
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6018c171-8217-5295-bea0-a6bdc813a224
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261031T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 职业里程碑
+DESCRIPTION:细节见本地计划
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 职业里程碑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd2c1b0-b231-59c1-8731-5510a8e5e055
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261102T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 计划起跑
+DESCRIPTION:英语基线(先放 Ava 探针)\;BoldVoice 试用开始\;限时
+ 题基线
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 计划起跑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b0720d9a-3e64-5dee-951f-e64bb46afc26
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261108T090700
+DURATION:PT15M
+SUMMARY:里程碑 · BoldVoice 去留
+DESCRIPTION:试用 11/9 到期前决定留(年付)还是取消
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · BoldVoice 去留
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:39e0c976-50db-5f03-a643-05516077071f
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261213T090700
+DURATION:PT15M
+SUMMARY:里程碑 · CUDA 链路 go/no-go
+DESCRIPTION:云 VM 上 sudo ncu 出完整报告并在个人机 GUI 打开\;
+ 不通就换供应商\,12/20 仍不通降级
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · CUDA 链路 go/no-go
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb5adbaa-a63c-5cd9-bcff-410b3745684f
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261218T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 文章 1 交审
+DESCRIPTION:全文 ≤1\,500 词 + 1 张图 + 溯源表送出
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 文章 1 交审
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:048f6eba-5a72-58ca-8ba5-1205d86fd277
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20261227T090700
+DURATION:PT15M
+SUMMARY:里程碑 · Q4 季度复盘
+DESCRIPTION:月检后 30 分钟:预算现实、偏离确认、行为题对
+ 一遍
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · Q4 季度复盘
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba4940ae-949b-5200-875a-84189fc5baf3
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270131T090700
+DURATION:PT15M
+SUMMARY:里程碑 · LLM serving 词汇桥收口
+DESCRIPTION:一页笔记、口头版初稿、写回两处本地笔记\;同
+ 日定 CUDA kernel 2 去留
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · LLM serving 词汇桥收口
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0bbb5185-94da-5e6b-938b-12491e0c15a7
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270313T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 职业里程碑
+DESCRIPTION:细节见本地计划
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 职业里程碑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1621da5e-200a-5d06-993c-9cf1fe69738b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270314T090700
+DURATION:PT15M
+SUMMARY:里程碑 · RDMA 基础完成
+DESCRIPTION:闭卷自测 #2 ≥11/12\;三句定稿写回本地笔记
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · RDMA 基础完成
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:591f0187-8729-5ff3-9807-84a0a5991459
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270328T090700
+DURATION:PT15M
+SUMMARY:里程碑 · CUDA 验收 + Q1 季度复盘
+DESCRIPTION:done_when 全勾\;按书面同意定公开或私有\;删实例
+ 和卷
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · CUDA 验收 + Q1 季度复盘
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab9adb93-c311-5819-b963-b07c11c18e74
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270425T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 文章 1 发表 + 仓库首次公开
+DESCRIPTION:须有书面同意\;没批就保持私有
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 文章 1 发表 + 仓库首次公开
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:46d4173a-27c2-5c0d-afbf-74880f36bd6b
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270627T090700
+DURATION:PT15M
+SUMMARY:里程碑 · Rust 小库收口 + 11 份重写收齐 + Q2 季度复
+ 盘
+DESCRIPTION:测试全绿、基准表、README、读码一页
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · Rust 小库收口 + 11 份重写收齐 + Q2 季度
+ 复盘
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:349aef4f-e708-5614-a69b-65bb3a53a4eb
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270725T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 仓库 v1.0 / 写作闸门
+DESCRIPTION:收 Rust 小库打 v1.0\;文章 2 若在做且未批就删减
+ 再送或推迟
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 仓库 v1.0 / 写作闸门
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6c15b93a-af5e-59dd-9718-b3229bc13629
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270815T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 固件收据 ①
+DESCRIPTION:QEMU A/B 自动回滚四场景 × 3 次全过
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 固件收据 ①
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86d3b782-f133-5369-8f3b-047582608cb7
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270829T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 固件核心收口
+DESCRIPTION:中断延迟两组数据 + 寄存器自查 + 五段讲稿节点
+ 卡
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 固件核心收口
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c25f38e6-bae5-57af-8024-a09e1c623320
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270916T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 职业里程碑
+DESCRIPTION:细节见本地计划
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 职业里程碑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a477b2fd-c0b1-55cd-a2c5-8652773731b5
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270919T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 职业里程碑
+DESCRIPTION:细节见本地计划
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 职业里程碑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:76cad464-c9cf-54d0-9f19-fee0937613bf
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20270926T090700
+DURATION:PT15M
+SUMMARY:里程碑 · Q3 季度复盘 + 词表抽查
+DESCRIPTION:开打前总检与闸门\;词表抽 20 ≥18
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · Q3 季度复盘 + 词表抽查
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:966e3dfb-4848-557e-aee2-af6bc24b67be
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271001T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 职业里程碑
+DESCRIPTION:细节见本地计划
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 职业里程碑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f3e26938-9656-504a-bd85-78bdad26a2a3
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271004T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 职业里程碑
+DESCRIPTION:细节见本地计划
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 职业里程碑
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c12ded2f-2c62-55c8-a69f-5f062c1c4920
+DTSTAMP:20261016T154338Z
+DTSTART;TZID=America/Los_Angeles:20271031T090700
+DURATION:PT15M
+SUMMARY:里程碑 · 年终月检
+DESCRIPTION:一页对比\;年度复盘挪到 11/1\;BoldVoice 续费决定
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:里程碑 · 年终月检
 TRIGGER:-PT0M
 END:VALARM
 END:VEVENT
